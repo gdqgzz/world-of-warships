@@ -1,7 +1,297 @@
-.dl{margin:0px;padding :0px;
-    background-color:#071A23
-
+.ql {
+    margin: 0px;
+    padding: 0px
 }
-.d2 {
-    list-style: non
+.bbj {
+    background-color: aliceblue
+}
+.bgs{
+background-color: #fff
+}
+ul,
+li,
+div,
+p,
+a {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    color: #000
+}
+
+
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    height: 50px
+}
+
+.d1cd1g {
+    width: 1200px;
+    height: 59px
+}
+
+.d1cd1g1 {
+    width: 204px;
+    height: 43px;
+    text-align: center;
+}
+
+a {
+    padding: 0px
+}
+
+.kzw {
+    width: 84px;
+    height: 35px
+}
+
+.xgg {
+    width: 740px;
+    height: 43px
+}
+
+.qxcp {
+    width: 150px;
+    height: 43px;
+    text-align: center;
+}
+
+.caidan {
+    width: 1000px;
+    height: 209px
+}
+
+.daohang {
+    width: 1240px;
+    height: 90px;
+    padding: 10px
+}
+
+.daohangBJ {
+    height: 90px;
+    background-color: #071A23
+}
+
+.HOME {
+    width: 959px;
+    height: 90px
+}
+
+span p {
+    width: 110px;
+    height: 90px;
+    text-align: center;
+    margin: 8px
+}
+
+i,
+b {
+    height: 24px
+}
+
+/* { 
+    color: #fff;
+    font-weight:normal
+}*/
+b {
+    color: #aaa
+}
+
+.lii {
+    margin: 13px
+}
+
+.dalun {
+    height: 660px;
+   
+}
+
+.carousel-indicators li {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.kuangjia-3 {
+    width: 1240px;
+    height: 1477px;
+}
+
+.kuangjia-3-1 {
+    width: 1240px;
+    height: 400px;
+    margin-bottom: 40px
+}
+
+.kuangjia-3-1-1 {
+    width: 400px;
+    height: 400px;
+}
+.a3-zuobian{
+    width:400px;
+    height:120px;
+    background:#EC5000
+}
+
+.kuangjia-3-2{
+    width:1240px;
+    height:474px;
+}
+.kuangjia-3-3{
+    width:1240px;
+    height:523px
+}
+.kuangjia{
+    background:#071A23
+}
+#d3-2{
+    color: #fff;
+    font-size:35px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 20px;
+}
+#d3-3{
+    color: #fff;
+    text-align: center;
+}
+#d3-4 td{
+    width:200px;
+    height:69px;
+    text-align: center;
+    background-color: #082330;
+    border:0.5px solid #000;
+}
+#i-1,
+#i-2,
+#i-3,
+#i-4,
+#i-5,
+#i-6,
+#i-7,
+#i-8{
+    width:45px;
+    height:45px;
+    display:inline-block;
+    background:url(../img/zaxiang/script.png); 
+    vertical-align: middle; 
+    }
+#i-1{
+    background-position: 0 -120px
+}
+.dyc-1{
+    background-color: #fff
+}
+#i-2{
+    background-position:-45px -120px;
+}
+#i-3{
+    background-position:-90px -120px;
+}
+#i-4 {
+    background-position:-135px -120px
+}
+#i-5{
+    background-position:-180px -120px;
+}
+#i-6 {
+    background-position: -225px -120px;
+}
+#i-7 {
+    background-position: -270px -120px;
+}
+#i-8 {
+    background-position: -315px -120px;
+}
+.kuangjia-3-1-2{
+    width:820px;
+    height:400px;
+}
+.er1 {
+    margin-left:20px
+}
+.kuangjia-4-1{
+    width:400px;
+    height:469px;
+    margin-right: 20px
+}
+.kuangjia-4-1-1{
+    width:400px;
+    height:31px;
+    margin-bottom: 5px
+}
+.kuangjia-4-1-1-1{
+    width:131px;
+    height:31px;
+    font-family: "微软雅黑",
+    "宋体",
+    Times,
+    serif;
+    color:#fff
+}
+.kuangjia-4-1-1-1 b{
+    width:25px;
+    height:25px;
+    display:inline-block;
+    background:url(../img/zaxiang/script.png);
+    vertical-align: middle;
+    background-position: 0 -165px;
+    margin-right: 5px
+}
+.kuangjia-4-1-1-1 b+a{
+    color:#fff;
+    display:inline-block;
+    vertical-align: middle;
+    width:12px;
+    height:12px;
+    margin-left: 230px;
+    margin-bottom: 10px
+}
+.kuangjia-4-1-2 {
+    color: #071A23 !important
+}
+.border-0{
+    border:0;
+    color:#fff;
+    width:100px;
+    height:42px
+}
+#zx1,
+#zx2,
+#zx2+b,
+#zx4
+{
+    color:#fff;
+    font-size:13px
+}
+#zx1{
+    width:38px;
+    height:38px;
+    vertical-align: middle;
+    display:inline-block;
+}
+#zx2{
+    width:270px;
+    height:38px;
+    margin: 0 8px;
+    vertical-align: middle;
+    display:inline-block;
+}
+#zuixing li,#home li{
+    width:400px;
+    height:38px;
+    padding:0 14px
+}
+#zx4{
+    color: #fff;
+vertical-align: middle;
+display:inline-block;
 }

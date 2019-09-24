@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+#hs{
+position: relative;
+border:1px solid #900;
+display: none;
+padding-top:45px;
+}
+#hs>button{
+position: absolute;
+top:0 ;right:0;
+width:45px; height:45px;
+border:1px solid #900;
+font-size:32px;
+}
+</style>
+<title>Document</title>
+</head>
+<body>
+<h3>03_darg.html</h3>
+<div id="lt">
+<img src="res/trash.png" id="t">
+<div id="hs">
+<button id="cc">×</button>
+</div>
+</div>
+<hr>
+<div id="p">
+<img src="res/p3.png">
+<img src="res/p4.png">
+<img src="res/p5.png">
+</div>
+<script>
+//功能：实现拖动释放效果
+var t=document.getElementById("t");
+var p=document.getElementById("p");
+var lt=document.getElementById("lt");
+var hs=document.getElementById("hs");
+var pid;
+//拖动对象
+//拖动开始
+p.ondragstart=function(e){
+//console.log(1)
+if(e.target.nodeName=="IMG"){
+pid=e.target;
+}
+}
+//拖动中
+p.ondrag=function(e){
+//console.log(2)
+}
+//拖动结束
+p.ondragend=function(e){
+//console.log(3)
+}
+//目标对象
+//拖动进入
+t.ondragenter=function(){console.log(1)}
+//拖动悬停
+t.ondragover=function(e){
+console.log(2)
+e.preventDefault();//阻止事件默认行为
+}
+//拖动离开
+t.ondragleave=function(){console.log(3)}
+//拖动释放
+t.ondrop=function(){
+console.log(4)
+p.removeChild(pid);
+hs.appendChild(pid);
+}
+//点击垃圾桶时，显示hs
+t.onclick=function(){
+var div=this.nextElementSibling;
+var style=getComputedStyle(div);
+if(style.display=="none"){
+div.style.display="block";
+}
+}
+//
+hs.onclick=function(e){
+if(e.target.id=="cc"){
+e.target.parentNode.style.display="none";
+}
+}
+</script>
+</body>
+</html>
