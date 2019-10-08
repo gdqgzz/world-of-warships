@@ -10,34 +10,106 @@
     <script src="boot/popper.min.js"></script>
     <script src="boot/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <ul class="nav nav-tabs">
-        <li class="nav-item"><a data-toggle="tab" href="#tab1" class="nav-link">东北菜</a></li>
-        <li class="nav-item"><a data-toggle="tab" href="#tab2" class="nav-link">四川菜</a></li>
-        <li class="nav-item"><a data-toggle="tab" href="#tab3" class="nav-link">云南菜</a></li>
-        <li class="nav-item"><a data-toggle="tab" href="#tab4" class="nav-link">陕西菜</a></li>
-    </ul>
-    <!--显示的内容-->
-    <div class="tab-content">
-        <div class="tab-pane" id="tab1">小鸡炖蘑菇</div>
-        <div class="tab-pane" id="tab2">钵钵鸡</div>
-        <div class="tab-pane" id="tab3">汽锅鸡</div>
-        <div class="tab-pane" id="tab4">臊子面</div>
+    <div class="tabs container">
+        <ul id="tab">
+            <li><a href="javascript:;"  data-click="tab" data-id="content1">综合</a></li>
+            <li><a href="javascript:;"  data-click="tab" data-id="content2">热门资讯</a></li>
+            <li><a href="javascript:;"  data-click="tab" data-id="content3">海战经典</a></li>
+            <li><a href="javascript:;"  data-click="tab" data-id="content4">媒体新闻</a></li>
+        </ul>
+        <div id="conts" class=" container">
+            <div id="content1" style="z-index:9">
+                <ul>
+                    <li class="ulli">
+                        <a href="" class="a-h4p">
+                            <h4>委内瑞拉进行大规模军演 两栖战车挤满甲板</h4>
+                            <p class="a-p">
+                                <i><img src="img/zaxiang/16215.jpg"alt="" class="w-100"></i>
+                                <span>当地时间7月24日，委内瑞拉总统马杜罗在7月5日阅兵时宣布的大规模军事演习如期而至。</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="ulli">
+                        <a href="" class="a-h4p">
+                            <h4>印度首批"阿帕奇"武装直升机抵达 机体梆硬抗坠性能良好</h4>
+                            <p class="a-p">
+                                <i><img src="img/zaxiang/16214.jpg"alt=""class="w-100"></i>
+                                <span>距印媒"今日印度"7月27日消息，当日印度采购首批四架AH-64E"阿帕奇"直升机到达新德里郊区加济阿巴德的新登空军基地。</span>
+                            </p>
+                        </a>
+                    </li>
+                    <li class="ulli">
+                        <a href="" class="a-h4p">
+                            <h4>"美版歼-20" 曝光！红黑色调着实有点漂亮</h4>
+                            <p class="a-p">
+                                <i><img src="img/zaxiang/16213.jpg"alt=""class="w-100">
+                                </i><span>继美军采用数码涂装模拟俄军苏-57的F-16,F/A-18战机相继亮相，被美媒"战区"认为类似中国最新歼-20，歼-31隐身攒积的全新涂装也正式曝光</span>
+                                </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="content2">
+                <ul>
+                    <li class="ulli"><a href="" class="a-4p"><h4>safdsfdssfsfdfddfsfssss</h4><p class="a-p"><i><img src="" alt=""></i><span>dsfdsafdsfsafdsafdsafd</span></p></a></li>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4>ljfsdfaigekdaf;djgiegjdks</h4>
+                            <p class="a-p"><i><img src="" alt=""></i><span>fsfaggfdgfgdsgfdsgrdgdsgfdgrhrdfgrehgdfgerdsag</span></p>
+                        </a></li>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4></h4>
+                            <p class="a-p"><i><img src="" alt=""></i><span></span></p>
+                        </a></li>
+                </ul>
+            </div>
+            <div id="content3">
+                <ul>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4></h4>
+                            <p class="a-p"><i><img src="" alt=""></i><span></span></p>
+                        </a></li>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4></h4>
+                            <p class="a-p" <i><img src="" alt=""></i><span></span></p>
+                        </a></li>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4></h4>
+                            <p class="a-p"><i><img src="" alt=""></i><span></span></p>
+                        </a></li>
+                </ul>
+            </div>
+            <div id="content4">
+                <ul>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4></h4>
+                            <p class="a-p"><i><img src="" alt=""></i><span></span></p>
+                        </a></li>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4></h4>
+                            <p class="a-p"><i><img src="" alt=""></i><span></span></p>
+                        </a></li>
+                    <li class="ulli"><a href="" class="a-4p">
+                            <h4></h4>
+                            <p class="a-p"><i><img src="" alt=""></i><span></span></p>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <ul class="nav nav-tabs nav-pills">
-        <li class="nav-item"><a href="#tab5" class="nav-link" data-toggle="pill">口红</a></li>
-        <li class="nav-item"><a href="#tab6" class="nav-link" data-toggle="pill">运动鞋</a></li>
-        <li class="nav-item"><a href="#tab7" class="nav-link" data-toggle="pill">包包</a></li>
-        <li class="nav-item"><a href="#tab8" class="nav-link" data-toggle="pill">手表</a></li>
-    </ul>
-    <div class="tab-content">
-        <div id="tab5" class="tab-pane">YSL，Dior，chanel</div>
-        <div id="tab6" class="tab-pane">黑椰子，AJII，彩喷</div>
-        <div id="tab7" class="tab-pane">爱马仕，LV，Gucci</div>
-        <div id="tab8" class="tab-pane">僵尸战队，劳力士，百达翡丽</div>
-    </div>
-
-
+    <script>
+    var ulTab = document.getElementById("tab");
+    var index = 10;
+    ulTab.onclick = function (e) {
+        if (e.target.dataset.click == "tab") {
+            var tab = e.target;
+            var id = tab.getAttribute("data-id");
+            var div = document.getElementById(id);
+            div.style.zIndex = index++;
+        }
+    }
+    </script>
 </body>
 </html>

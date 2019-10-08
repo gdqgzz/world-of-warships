@@ -144,10 +144,12 @@ a:hover {
 .kuangjia-3-2{
     width:1240px;
     height:474px;
+    margin-bottom: 40px
 }
 .kuangjia-3-3{
     width:1240px;
-    height:523px
+    height:523px;
+    margin-bottom: 40px
 }
 .kuangjia{
     background:#071A23
@@ -253,7 +255,9 @@ a:hover {
     width:12px;
     height:12px;
     margin-left: 230px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 2px
 }
 .kuangjia-4-1-2 {
     color: #071A23 !important
@@ -285,7 +289,10 @@ a:hover {
     vertical-align: middle;
     display:inline-block;
 }
-#zuixing li,#home li{
+#zuixing li,
+#home li,
+#notice li,
+#activity li{
     width:400px;
     height:38px;
     padding:0 14px
@@ -294,4 +301,232 @@ a:hover {
     color: #fff;
 vertical-align: middle;
 display:inline-block;
+}
+.kuangjia-4-2{
+    width:820px;
+    height:474px;
+
+}
+#kuangjia-4-2-1{
+    width:820px;
+    height:31px;
+    margin-bottom: 5px;
+    
+}
+#kuangjia-4-2-1 span{
+    widows: 251px;
+    height:31px;
+    color:#fff;
+    vertical-align: middle;
+    display:inline-block;
+    
+}
+#kuangjia-4-2-1 span b{
+    width:25px;
+    height:25px;
+    vertical-align: middle;
+    display:inline-block;
+    background: url(../img/zaxiang/script.png);
+    background-position: -25px -165px;
+}
+.kuangjia-4-2-2{
+    width:820px;
+    height:438px;
+}
+#kj-1{
+    width:500px;
+    height:392px;
+    padding:0px;
+    position:relative;
+    list-style:none;
+    margin:0 auto;
+}
+.kuangjia-4-2-2 div,
+.kuangjia-4-2-2 div div{
+    width:780px;
+    height:392px;
+    text-align: center;
+}
+#kj-0{
+position: absolute;
+left: -37px;
+top: -2px;
+width: 568px;
+height: 392px;
+opacity: 1;
+z-index: 280;
+font-size: 12px;
+}
+.kj-1-1{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        display: none;
+        background: #071a23;
+}
+.kj-a{
+    background: url(../img/zaxiang/script.png);
+    background-position: -732px -120px;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -34px;
+    margin-top: -34px;
+    }
+
+.kj-2{
+    position: absolute;
+    left: 222px;
+    top: 42px;
+    width: 440.2px;
+    height: 303.8px;
+    opacity: 0.55;
+    z-index: 145;
+    font-size: 9.3px;
+}
+.kj-3{
+    position: absolute;
+    left: -167px;
+    top: 42px;
+    width: 440.2px;
+    height: 303.8px;
+    opacity: 0.55;
+    z-index: 145;
+    font-size: 9.3px;
+}
+.kj-1 img,.kj-2 img ,.kj-3 img  {
+    width: 100%;
+    height: 100%
+}
+.kuangjia-4-3-2-2{
+    vertical-align: middle;
+    display: inline-block;
+    width:299px !important;
+    height:42px !important;
+    margin-left: 238px
+}
+.kuangjia-4-3-2-2 a{
+    color:#fff;
+    border-bottom: 2px solid #93e6df;
+    font-size: 16px;
+    width:93px;
+    height:40px;
+    text-align: center;
+    display:inline-block;
+}
+.kuangjia-3-3-1{
+    width:400px;
+    height:523px;
+    margin-right: 20px;
+}
+.kuangjia-3-3-1-1{
+    width:400px;
+    height:31px;
+    margin-bottom: 5px;
+}
+#sq,#sq>b, .sequ{
+    display:inline-block;
+    color:#fff;
+    vertical-align: middle;
+}
+#sq{
+    width:350px;
+    height:31px;
+}
+#sq b{
+    width:25px;
+    height:25px;
+    background:url(../img/zaxiang/script.png);
+    background-position: -50px -165px;
+    margin-bottom: 3px;
+    
+}
+.sequ{
+    width:20px;
+    height:20px;
+    color:#fff;
+    padding-bottom: 40px
+}
+.tabs{
+    width:400px;
+    height:477px;
+}
+#tab{
+    width:400px;
+    height:42px;
+    margin-bottom: 10px;
+    color:#fff;
+}
+#conts{
+    width:400px;
+    height:523px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.a-h4p h4{
+    width:370px;
+    height:45px;
+    font-size: 14px;
+    display:inline-block;
+    margin:0px;
+    padding-top: 15px;
+    color:#fff
+}
+.a-p{
+    widows: 370px;
+    height:90px;
+    display:inline-block;
+    vertical-align: middle
+}
+.a-p i{
+    width:160px;
+    height:90px;
+    margin-right: 20px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.a-p span{
+    width:186px;
+    height:51px;
+    display:inline-block;
+    font-size: 10px;
+    vertical-align: top;
+    color:#fff
+}
+.ulli{
+    width:400px;
+    height:136px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    
+}
+.a-p i img{
+    width:100%;
+    height:100%
+}
+.a-h4p{
+    width:370px;
+    height:135px;
+    display:inline-block;
+}
+#tab li{
+    float: left;list-style: none;
+}
+#tab li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height:40%;
+    text-align: center;
+    width:100px;
+    height:41px;
+    margin-top: 30px
+}
+#content1,#content2,#content3,#content4{
+    position: absolute;
+    background-color: #071A23
 }
