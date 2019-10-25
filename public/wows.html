@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/vue.js"></script>
+    <style>
+        .f-bed{position: absolute;
+            width:100%;height:100%;
+            background:#fff url(./img/denglu/login-bg.png)center 95px no-repeat;
+            }
+        a{text-decoration : none}
+        .a-bed{width:919px;height:90px;
+            background:#fff url(./img/denglu/login_logo.png) no-repeat left center;
+            position: relative;top:-222px;left: 0px;
+            }
+        .tankes{width:359px;height:340px;
+            border: 2px solid #aaa;
+            position: relative;top:40px;left:570px;
+            margin-top:-220px;background-color: #fff
+            }
+        .b-bed{
+            width:919px;height:740px;position:relative;margin:225px auto
+            }
+        .c-bed{
+            width:919px;height:500px; 
+            background: #fff url(./img/denglu/login-c.png) no-repeat;padding-bottom: 40px
+            }
+        #tab{
+            width:100%;height:54px;
+            border-bottom:1px solid #aaa;margin:0px;padding: 0}
+        #tab li{list-style:none;
+            text-align: center;
+            width:100px;float: left;
+            Box-sizing: border-box;padding-top: 16px
+            }
+        li a{text-decoration:none;color:#000; font-size: 18px;}
+        #containers{
+            width:500px;height:217px
+        }
+        #containers{position:relative;}
+        #yonghu,#saoma{
+            width:70%;height:100%;
+            position:absolute;top:0px;left:0px
+        }
+        #yonghu{
+            background-color: #fff;}
+        #saoma{
+            background-color: #fff}
+        input,button{
+            width:300px;height:40px;margin-top: 20px;}
+        p a{color:brown;font-size: 12px}
+        p{
+            padding:15px 0 0 0;margin: 0;
+            box-sizing: border-box;font-size: 12px
+        }
+        .e-bed{
+            width:359px;height:54px;border-top: 1px solid #aaa;margin-top: 0;padding:16px 0 16px 24.5px;
+            box-sizing: border-box;}
+        .d-bed{
+            width:361px;height:236px;box-sizing: border-box;padding:0 0 0 24.5px;border-right: 2px solid #aaa}
+        a+a{
+            margin-left:98px;color:#000}
+        li{
+            margin-left:50px}
+        form{
+            width:359px !important}
+            button{background-color: #f60;border:0}
+            input{padding:0 30px;box-sizing: border-box;}
+            .e-bed a{vertical-align: middle;
+            display:inline-block;
+            width:22px;height:22px;
+            margin: 0;padding: 0;background-image: url(./img/denglu/share_icon.jpg);}
+            .lgg p{text-align: center;padding-top: 2px;color: #999;
+            line-height: 150%;}
+    </style>
+</head>
+<body>
+<div>
+    <div class="f-bed">
+    <div class="b-bed">
+        <div class="a-bed"><img src="" alt=""></div>
+        <div class="c-bed">
+            <div class="tankes">
+                <ul id="tab">
+                    <li><a href="javascript:;" data-click="tab" data-id="yonghu">账户登录</a></li>
+                    <li><a href="javascript:;" data-click="tab" data-id="saoma">扫码登录</a></li>
+                </ul>
+                <div id="containers">
+                    <div id="yonghu" style="z-index:9">
+                        <form action="" method="">
+                            <div class="d-bed">
+                            <input type="text" style="background: url(./img/denglu/ico_name.png) no-repeat left" placeholder="请输入账号">
+                            <input type="text" style="background: url(./img/denglu/ico_pwd.png) no-repeat left"
+                                placeholder="请输入登录密码">
+                            <button>登录</button>
+                            <div>
+                                <p>没有账号?<a href="">立即注册</a><a href="">忘记密码</a>
+                                </p>
+                            </div>
+                            </div>
+                            <p class="e-bed">第三方登录
+                                <a href=""
+                                    style="background-position: -44px 0;"></a>
+                                <a href="" style="background-position: -66px 0;"></a>
+                                <a href=""></a>
+                            </p>
+                        </form>
+                    </div>
+                    <div id="saoma">
+                        wa
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lgg"><p><span>COPYRIGHT © 1998 – 2017
+                KONGZHONG. ALL RIGHTS RESERVED. </span>空中网版权所有</p>
+        <p>京ICP证020001号 京网文[2011]0467–160号 经营许可证编号:B2–20090197</p></div>
+        
+    </div>
+    </div>
+    <div>
+         
+    </div>
+</div>
+    <script>
+        var ulTab = document.getElementById("tab");
+                            var index = 10;
+                            ulTab.onclick = function (e) {
+                                if (e.target.dataset.click == "tab") {
+                                    var tab = e.target;
+                                    var id = tab.getAttribute("data-id");
+                                    var div = document.getElementById(id);
+                                    div.style.zIndex = index++;
+                                }
+                            }
+        var vn=new vue({
+            el:"#containers",
+            data:{
+                
+            }
+        })
+    </script>
+</body>
+</html>
